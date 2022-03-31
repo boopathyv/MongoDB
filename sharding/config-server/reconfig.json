@@ -1,0 +1,65 @@
+rs.reconfig({
+	"_id" : "cfgrs",
+	"version" : 1,
+	"term" : 33,
+	"members" : [
+		{
+			"_id" : 0,
+			"host" : "192.168.1.2:50001",
+			"arbiterOnly" : false,
+			"buildIndexes" : true,
+			"hidden" : false,
+			"priority" : 1,
+			"tags" : {
+				
+			},
+			"secondaryDelaySecs" : NumberLong(0),
+			"votes" : 1
+		},
+		{
+			"_id" : 1,
+			"host" : "192.168.1.2:50002",
+			"arbiterOnly" : false,
+			"buildIndexes" : true,
+			"hidden" : false,
+			"priority" : 1,
+			"tags" : {
+				
+			},
+			"secondaryDelaySecs" : NumberLong(0),
+			"votes" : 1
+		},
+		{
+			"_id" : 2,
+			"host" : "192.168.1.2:50003",
+			"arbiterOnly" : false,
+			"buildIndexes" : true,
+			"hidden" : false,
+			"priority" : 1,
+			"tags" : {
+				
+			},
+			"secondaryDelaySecs" : NumberLong(0),
+			"votes" : 1
+		}
+	],
+	"configsvr" : true,
+	"protocolVersion" : NumberLong(1),
+	"writeConcernMajorityJournalDefault" : true,
+	"settings" : {
+		"chainingAllowed" : true,
+		"heartbeatIntervalMillis" : 2000,
+		"heartbeatTimeoutSecs" : 10,
+		"electionTimeoutMillis" : 10000,
+		"catchUpTimeoutMillis" : -1,
+		"catchUpTakeoverDelayMillis" : 30000,
+		"getLastErrorModes" : {
+			
+		},
+		"getLastErrorDefaults" : {
+			"w" : 1,
+			"wtimeout" : 0
+		},
+		"replicaSetId" : ObjectId("618bc0b067fb52eefeae6281")
+	}
+},{"force":true})
